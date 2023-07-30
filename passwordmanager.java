@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class pm{
+public class passwordmanager{
     private static final String PASSWORD_FILE = "passwords.txt";
     private static Map<String, String[]> passwordMap = new HashMap<>(); 
     public static void main(String[] args){
